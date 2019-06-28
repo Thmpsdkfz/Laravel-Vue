@@ -16,3 +16,5 @@ Route::get('/', 'HomeController@index');
 Route::get('/perfil', 'HomeController@profile');
 
 Route::get('/contacto', 'HomeController@contact');
+
+Route::post('/grabar', 'HomeController@save_r');
