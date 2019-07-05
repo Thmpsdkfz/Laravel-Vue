@@ -10,18 +10,21 @@ class HomeController extends Controller
 {
     //
     public function index() {
+        return view('welcome');
+    }    
 
-        $contestant = new Contestant;
-
-        $resultado = $contestant->all();
-
-        return view('welcome', compact('resultado'));
-    }    //
     public function contact() {
         return view('contacto');
-    }    //
+    }    
+
     public function profile() {
         return view('perfil');
+    }
+
+    public function ajx_participantes(){
+        $contestant = new Contestant;
+        $resultado = $contestant->all();
+        return $resultado;
     }
 
     public function save_r(PerfilCreateRequest $request){

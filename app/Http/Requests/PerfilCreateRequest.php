@@ -26,7 +26,7 @@ class PerfilCreateRequest extends FormRequest
         return [
             'fullname'=>'required',
             'gid'=>'required|max:8',
-            'email'=>'required|email|unique:constestants'
+            'email'=>'required|email|unique:contestants'
         ];
     }
 }

@@ -18,3 +18,5 @@ Route::get('/perfil', 'HomeController@profile');
 Route::get('/contacto', 'HomeController@contact');
 
 Route::post('/grabar', 'HomeController@save_r');
+
+Route::get('/lista_participantes', 'HomeController@ajx_participantes');
