@@ -37,7 +37,7 @@ class HomeController extends Controller
 
         $new_contestant->save();
 
-        return redirect();
+        return redirect('/');
 
     }
 }

@@ -49142,8 +49142,8 @@ if (token) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\Alumno\proyecto-isil\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\Alumno\proyecto-isil\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! D:\Francisco\Documents\ISIL\DesarrolloWeb2\Laravel-Vue\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! D:\Francisco\Documents\ISIL\DesarrolloWeb2\Laravel-Vue\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
